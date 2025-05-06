@@ -174,38 +174,38 @@ export default function About() {
           </div>
 
           <div className="relative">
-            <div className="border-l-2 border-blue-500 absolute h-full left-1/2 transform -translate-x-1/2 md:left-6 md:transform-none"></div>
-            <div className="space-y-8">
-              <div className="relative pl-8 md:pl-0">
-                <div className="md:flex items-start">
-                  <div className="md:w-1/2 md:pr-8 md:text-right mb-4 md:mb-0">
-                    <h3 className="text-xl font-semibold text-gray-800 dark:text-white">Education</h3>
-                    <p className="text-gray-500 dark:text-gray-400">2016 - 2020</p>
+            <div className="border-l-2 border-blue-500 absolute h-full left-4 top-0 md:left-1/2 md:transform md:-translate-x-1/2"></div>
+            <div className="space-y-8 pl-8 md:pl-0">
+              <div className="relative">
+                <div className="flex flex-col md:flex-row">
+                  <div className="md:w-1/2 md:pr-8 md:text-right mb-2 md:mb-0">
+                    <h3 className="text-lg md:text-xl font-semibold text-gray-800 dark:text-white">Education</h3>
+                    <p className="text-sm md:text-base text-gray-500 dark:text-gray-400">2016 - 2020</p>
                   </div>
                   <div className="md:w-1/2 md:pl-8">
-                    <div className="bg-gray-50 dark:bg-gray-700 p-6 rounded-lg shadow-md">
-                      <h4 className="text-lg font-medium text-gray-800 dark:text-white mb-2">High Institute of Computer and Information Systems</h4>
-                      <p className="text-gray-600 dark:text-gray-300 mb-2">Bachelor's in Management Information Systems</p>
-                      <p className="text-gray-500 dark:text-gray-400">Very good with Honors</p>
+                    <div className="bg-gray-50 dark:bg-gray-700 p-4 md:p-6 rounded-lg shadow-sm md:shadow-md">
+                      <h4 className="text-base md:text-lg font-medium text-gray-800 dark:text-white mb-1 md:mb-2">High Institute of Computer and Information Systems</h4>
+                      <p className="text-sm md:text-base text-gray-600 dark:text-gray-300 mb-1 md:mb-2">Bachelor's in Management Information Systems</p>
+                      <p className="text-xs md:text-sm text-gray-500 dark:text-gray-400">Very good with Honors</p>
                     </div>
                   </div>
                 </div>
-                <div className="w-4 h-4 bg-blue-500 rounded-full absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2 top-1/2 md:left-6 md:transform-none"></div>
+                <div className="w-3 h-3 md:w-4 md:h-4 bg-blue-500 rounded-full absolute left-0 transform -translate-x-1/2 top-1/2 -translate-y-1/2 md:left-1/2"></div>
               </div>
 
-              <div className="relative pl-8 md:pl-0">
-                <div className="md:flex items-start">
-                  <div className="md:w-1/2 md:pr-8 md:text-right mb-4 md:mb-0">
-                    <h3 className="text-xl font-semibold text-gray-800 dark:text-white">Front-End Training</h3>
-                    <p className="text-gray-500 dark:text-gray-400">2020 - 2021</p>
+              <div className="relative">
+                <div className="flex flex-col md:flex-row">
+                  <div className="md:w-1/2 md:pr-8 md:text-right mb-2 md:mb-0">
+                    <h3 className="text-lg md:text-xl font-semibold text-gray-800 dark:text-white">Front-End Training</h3>
+                    <p className="text-sm md:text-base text-gray-500 dark:text-gray-400">2020 - 2021  & 2024 - 2025 </p>
                   </div>
                   <div className="md:w-1/2 md:pl-8">
-                    <div className="bg-gray-50 dark:bg-gray-700 p-6 rounded-lg shadow-md">
-                      <h4 className="text-lg font-medium text-gray-800 dark:text-white mb-2">Route Academy & Udacity</h4>
-                      <p className="text-gray-600 dark:text-gray-300 mb-2">Front-End Web Development Diploma</p>
-                      <div className="flex flex-wrap gap-2 mt-2">
+                    <div className="bg-gray-50 dark:bg-gray-700 p-4 md:p-6 rounded-lg shadow-sm md:shadow-md">
+                      <h4 className="text-base md:text-lg font-medium text-gray-800 dark:text-white mb-1 md:mb-2">Udacity & Route Academy</h4>
+                      <p className="text-sm md:text-base text-gray-600 dark:text-gray-300 mb-1 md:mb-2">Front-End Web Development Diploma</p>
+                      <div className="flex flex-wrap gap-1 md:gap-2 mt-1 md:mt-2">
                         {['React', 'JavaScript', 'TypeScript', 'Tailwind CSS'].map(tech => (
-                          <span key={tech} className="px-2 py-1 bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 rounded text-xs">
+                          <span key={tech} className="px-2 py-0.5 text-xs bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 rounded">
                             {tech}
                           </span>
                         ))}
@@ -213,23 +213,24 @@ export default function About() {
                     </div>
                   </div>
                 </div>
-                <div className="w-4 h-4 bg-blue-500 rounded-full absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2 top-1/2 md:left-6 md:transform-none"></div>
+                <div className="w-3 h-3 md:w-4 md:h-4 bg-blue-500 rounded-full absolute left-0 transform -translate-x-1/2 top-1/2 -translate-y-1/2 md:left-1/2"></div>
               </div>
-              <div className="relative pl-8 md:pl-0">
-                <div className="md:flex items-start">
-                  <div className="md:w-1/2 md:pr-8 md:text-right mb-4 md:mb-0">
-                    <h3 className="text-xl font-semibold text-gray-800 dark:text-white">Professional Experience</h3>
-                    <p className="text-gray-500 dark:text-gray-400">2017 - Present</p>
+
+              <div className="relative">
+                <div className="flex flex-col md:flex-row">
+                  <div className="md:w-1/2 md:pr-8 md:text-right mb-2 md:mb-0">
+                    <h3 className="text-lg md:text-xl font-semibold text-gray-800 dark:text-white">Professional Experience</h3>
+                    <p className="text-sm md:text-base text-gray-500 dark:text-gray-400">2017 - Present</p>
                   </div>
                   <div className="md:w-1/2 md:pl-8">
-                    <div className="bg-gray-50 dark:bg-gray-700 p-6 rounded-lg shadow-md">
-                      <h4 className="text-lg font-medium text-gray-800 dark:text-white mb-2">Financial Accountant & Customer Service</h4>
-                      <p className="text-gray-600 dark:text-gray-300 mb-2">Developed transferable skills in problem-solving, attention to detail, and client relations</p>
-                      <p className="text-gray-500 dark:text-gray-400">Now transitioning full-time to Front-End Development</p>
+                    <div className="bg-gray-50 dark:bg-gray-700 p-4 md:p-6 rounded-lg shadow-sm md:shadow-md">
+                      <h4 className="text-base md:text-lg font-medium text-gray-800 dark:text-white mb-1 md:mb-2">Financial Accountant & Customer Service</h4>
+                      <p className="text-sm md:text-base text-gray-600 dark:text-gray-300 mb-1 md:mb-2">Developed transferable skills in problem-solving, attention to detail, and client relations</p>
+                      <p className="text-xs md:text-sm text-gray-500 dark:text-gray-400">Now transitioning full-time to Front-End Development</p>
                     </div>
                   </div>
                 </div>
-                <div className="w-4 h-4 bg-blue-500 rounded-full absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2 top-1/2 md:left-6 md:transform-none"></div>
+                <div className="w-3 h-3 md:w-4 md:h-4 bg-blue-500 rounded-full absolute left-0 transform -translate-x-1/2 top-1/2 -translate-y-1/2 md:left-1/2"></div>
               </div>
             </div>
           </div>
