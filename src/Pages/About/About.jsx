@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { FaReact, FaCodeBranch, FaPalette, FaEnvelope, FaPhone } from 'react-icons/fa';
-import profile from './../../assets/ME.jpg';
+// import profile from './../../assets/ME.jpg';
 
 export default function About() {
   return (
@@ -11,7 +11,7 @@ export default function About() {
           <div className="flex justify-center mb-6">
             <div className="w-32 h-32 rounded-full bg-slate-300 dark:bg-white/10 flex items-center justify-center">
               <img
-                src={profile}
+                src="Me.jpg"
                 alt="Mohamed Refaat Working"
                 className={`w-full h-full object-cover transition-all duration-700 rounded-full`}
                 style={{

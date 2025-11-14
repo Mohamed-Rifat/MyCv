@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useRef } from 'react';
 import { Link } from 'react-router-dom';
-import profile from './../../assets/ME.jpg';
+// import profile from './../../assets/ME.jpg';
 
 const About = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -81,7 +81,7 @@ const About = () => {
                 }}
               >
                 <img
-                  src={profile}
+                  src="/Me.jpg"
                   alt="Mohamed Refaat Working"
                   className={`w-full h-full object-cover transition-all duration-700 ${isVisible ? 'scale-100 opacity-100' : 'scale-110 opacity-0'}`}
                   style={{
