@@ -58,12 +58,15 @@ const Navbar = () => {
         <nav className="fixed w-full bg-white border-b border-gray-200 dark:bg-gray-900 dark:border-gray-700 z-50 shadow-sm">
             <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                 <Link to="/" className="flex items-center space-x-3 rtl:space-x-reverse">
-                    <span className="self-center text-2xl font-bold whitespace-nowrap dark:text-white text-gray-900">
+                    {/* <span className="self-center text-2xl font-bold whitespace-nowrap dark:text-white text-gray-900">
                         Mohamed Refaat
-                    </span>
+                    </span> */}
+                    <span className="text-transparent text-2xl font-bold bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600 dark:from-blue-400 dark:to-purple-400">
+              Mohamed Refaat
+            </span>
                 </Link>
 
-                <div className="hidden md:flex items-center space-x-6">
+                <div className="hidden lg:flex items-center space-x-6">
                     <ul className="flex font-medium space-x-8 rtl:space-x-reverse">
                         {navLinks.map((link) => (
                             <li key={link.name}>
@@ -109,7 +112,7 @@ const Navbar = () => {
                     </label>
                 </div>
 
-                <div className="flex md:hidden items-center space-x-4">
+                <div className="flex lg:hidden items-center space-x-4">
                     <label className="theme-switch">
                         <input
                             type="checkbox"
