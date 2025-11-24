@@ -156,14 +156,14 @@ const Navbar = () => {
                     className={`${mobileMenuOpen ? 'block' : 'hidden'} w-full md:hidden mt-4`}
                     id="navbar-dropdown"
                 >
-                    <ul className="flex flex-col font-medium p-4 border border-gray-200 rounded-lg bg-white dark:bg-gray-800 dark:border-gray-700 shadow-lg">
+                    <ul className="flex flex-col font-medium p-4 rounded-lg bg-white dark:bg-transparent  shadow-lg">
                         {navLinks.map((link) => (
                             <li key={link.name}>
                                 <NavLink
                                     to={link.href}
                                     onClick={() => setMobileMenuOpen(false)}
                                     className={({ isActive }) =>
-                                        `block py-3 px-4 rounded-lg transition-colors duration-200 ${isActive ?
+                                        `block py-3 px-4 transition-colors duration-200 ${isActive ?
                                             'text-blue-700 bg-blue-50 dark:bg-gray-700 dark:text-blue-400 font-semibold' :
                                             'text-gray-700 hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-700'
                                         }`
